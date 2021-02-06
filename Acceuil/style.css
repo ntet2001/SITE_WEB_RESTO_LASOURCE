@@ -1,0 +1,43 @@
+body{
+    background-image:linear-gradient(to right , yellow ,#41B7A2) ; url (IMG_5.jpg);
+}
+nav{
+    display:inline-block;
+    width:1200px;
+    text-align:right;
+}
+nav ul{
+    list-style-type:none;
+}
+nav li{
+    display:inline-block;
+}
+nav a{
+    font-size:em;
+    color:#47514E;
+    padding-bottom:10px;
+    text-decoration:none;
+}
+nav a:hover{
+    color:#47514E;
+    border-bottom:3% solid#47514E;
+}
+
+button[type="submit"]{
+    float:right;
+    padding:5px;
+    font-size:10px;
+    color:#ffff;
+    background-color: #41B7A2;
+}
+button{
+    float:left;
+    padding:10px;
+    font-size:10px;
+    color:#ffff;
+    background-color: #41B7A2;
+
+}
+h1(
+    text
+)
